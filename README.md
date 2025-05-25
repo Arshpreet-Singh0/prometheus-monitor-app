@@ -1,15 +1,15 @@
-# monitor-app
+# Monitor-app using Prometheus and Grafana
 
-To install dependencies:
 
-```bash
-bun install
-```
 
-To run:
+To run (make sure docker is installed) :
 
 ```bash
-bun run index.ts
+docker-compose up
 ```
 
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+visit for monitoring : 
+
+```
+http://localhost:9090
+```
